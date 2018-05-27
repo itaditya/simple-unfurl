@@ -13,6 +13,14 @@ const unfurl = require('simple-unfurl');
 
 const url = 'https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c';
 const pageData = await unfurl(url);
+
+// Output
+{
+  url: 'https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c',
+  title: 'How to escape async/await hell - freeCodeCamp',
+  description: "async/await freed us from callback hell, but people have started abusing it - leading to the birth of async/await hell. In this article, I will try to explain what async/await hell is, and I'll also.",
+  imageUrl: 'https://cdn-images-1.medium.com/max/1200/1*_3nDjjPTWn4ohLt96IcwCA.png'
+}
 ```
 
 ### You can check the [demo](/demo) for a fully working example
