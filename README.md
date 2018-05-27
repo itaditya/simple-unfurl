@@ -14,3 +14,12 @@ const pageData = await unfurl(url);
 ### You can check the [demo](/demo) for a fully working example
 
 ## API
+
+```js
+unfurl(url, mapping)
+```
+| Argument Name  | Type   | Description                     | Required | Default |
+| -------------  | ------ | ----------------------------    | -------- | ------- |
+| url            | String | link to generate preview for    | true     | N/A     |
+| mapping        | Object | map object key to meta tag name | false    | { title: 'title', description: 'description', imageUrl: 'twitter:image:src' } |
+
