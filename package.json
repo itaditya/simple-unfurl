@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generate preview of a link by extracting metadata",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "demo": "node demo/app.js",
     "dev": "nodemon --exec \"npm run demo\"",
