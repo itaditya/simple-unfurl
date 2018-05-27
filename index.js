@@ -2,7 +2,10 @@ const cheerio = require('cheerio');
 const request = require('superagent');
 
 const metaDataParser = (cheerio, html) => {
-  const $ = cheerio.load(html)  // build DOM for html
+  const headStartIndex = html.indexOf('<head')
+  const headEndIndex = html.indexOf('</head>') + 7
+  const headHtml = html.substring(headStartIndex, headEndIndex)
+  const $ = cheerio.load(headHtml)  // build DOM for headHtml
   const getMetaData = name => {
     const query = `meta[name="${name}"]`
     return $(query).attr('content')
