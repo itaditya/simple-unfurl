@@ -1,0 +1,50 @@
+{
+  "name": "simple-unfurl",
+  "version": "1.0.0",
+  "description": "Generate preview of a link by extracting metadata",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node demo/app.js",
+    "dev": "nodemon --exec \"npm run demo\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oembed",
+    "twitter-cards",
+    "open-graph-protocol",
+    "open-graph",
+    "ogp",
+    "metadata-parser",
+    "html-metadata",
+    "metadata",
+    "link-extract",
+    "whatsapp link extract",
+    "link preview",
+    "html preview",
+    "website preview",
+    "preview",
+    "scraper",
+    "scraping",
+    "embedding",
+    "embed",
+    "iframe",
+    "metadata",
+    "nodejs",
+    "fast"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itaditya/simple-unfurl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itaditya/simple-unfurl/issues"
+  },
+  "homepage": "https://github.com/itaditya/simple-unfurl#readme"
+}
